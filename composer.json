@@ -1,0 +1,15 @@
+{
+    "name": "evas-php/evas-mvc",
+    "description": "Mvc module (Controller class, trait for controller parent class)",
+    "version": "1.0",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "CC BY 4.0",
+    "authors": [
+        {
+            "name": "Egor Vasyakin",
+            "email": "egor@evas-php.com"
+        }
+    ],
+    "require": {}
+}
