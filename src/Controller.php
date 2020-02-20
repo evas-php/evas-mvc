@@ -42,7 +42,10 @@ class Controller
      */
     public function render(string $filename, array $args = [])
     {
-        return App::load($this->filename($filename), $args);
+        $filename = $this->filename($filename);
+        App::throwIfNotCanLoad($filename);
+        extract($args);
+        return include $filename;;
     }
 
     /**
